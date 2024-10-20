@@ -95,6 +95,8 @@ GameObject:
   - component: {fileID: 4821271008954835676}
   - component: {fileID: 1471653365348688536}
   - component: {fileID: 5490126210444812651}
+  - component: {fileID: -1587541146659419879}
+  - component: {fileID: 8917527297895350952}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -167,3 +169,36 @@ CircleCollider2D:
   m_Offset: {x: 0.016367912, y: 0.46836877}
   serializedVersion: 2
   m_Radius: 0.8192569
+--- !u!114 &-1587541146659419879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8429545686926893942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GlobalObjectIdHash: 3744980016
+  InScenePlacedSourceGlobalObjectIdHash: 0
+  AlwaysReplicateAsRoot: 0
+  SynchronizeTransform: 1
+  ActiveSceneSynchronization: 0
+  SceneMigrationSynchronization: 1
+  SpawnWithObservers: 1
+  DontDestroyWithOwner: 0
+  AutoObjectParentSync: 1
+--- !u!114 &8917527297895350952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8429545686926893942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bceb18e007341424485945e0c69e13d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
